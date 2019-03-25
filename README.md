@@ -7,6 +7,7 @@
 1. [Usage](#Usage)
 1. [Requirements](#requirements)
 1. [Development](#development)
+1. [Playing](#play)
 
 ## Usage
 
@@ -28,7 +29,13 @@ From within the root directory:
 ```sh
 npm install -g webpack
 npm install
+```
+
+## Play
+
+From within the root directory:
+
+```sh
 npm run react-dev
 npm start
 ```
-

@@ -1,7 +1,7 @@
 {
   "name": "mini-app-bowling",
   "version": "1.0.0",
-  "description": "tracks game score",
+  "description": "Classic game of Connect 4",
   "main": "server/index.js",
   "scripts": {
     "start": "nodemon server/index.js",
@@ -10,20 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wingzerocat/mini-app-bowling.git"
+    "url": "git+https://github.com/wingzerocat/connect4.git"
   },
   "author": "Michael Lou",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/wingzerocat/mini-app-bowling/issues"
-  },
-  "homepage": "https://github.com/wingzerocat/mini-app-bowling#readme",
+  "homepage": "https://github.com/wingzerocat/connect4#readme",
   "dependencies": {
-    "body-parser": "^1.18.3",
-    "bootstrap": "^4.3.1",
     "express": "^4.16.4",
     "jquery": "^3.3.1",
-    "mongoose": "^5.4.19",
     "react": "^16.8.4",
     "react-dom": "^16.8.4"
   },

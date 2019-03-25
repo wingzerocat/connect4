@@ -1,0 +1,91 @@
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.turn {
+    width: 40%;
+    padding-left: 2px;
+}
+.score {
+    width: 60%;
+    text-align: center;
+}
+.left {
+    display: inline-block;
+    float: left;
+}
+.right {
+    display: inline-block;
+    float: right;
+}
+table {
+    background-color: blue;
+    border-collapse: separate;
+    overflow: hidden;
+    display: table;
+    font-size: 0px;
+}
+
+thead {
+    background-color: white;
+    border-collapse: collapse;
+}
+
+
+tbody {
+    text-decoration: white;
+}
+
+td, th {
+    position: relative;
+}
+
+tr, td {
+    text-align: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+}
+
+.col0 {
+    background-color: white;
+    border-radius: 50%;
+}
+.col1 {
+    background-color: black;
+    border-radius: 50%;
+}
+.col2 {
+    background-color: red;
+    border-radius: 50%;
+}
+
+th.true:hover::after {
+    content: "";
+    position: absolute;
+    background-color: black;
+    border-radius: 50%;
+    left: 0;
+    top: 0px;
+    height: 40px;
+    width: 100%;
+    z-index: 1;
+}
+th.false:hover::after {
+    content: "";
+    position: absolute;
+    background-color: red;
+    border-radius: 50%;
+    left: 0;
+    top: 0px;
+    height: 40px;
+    width: 100%;
+    z-index: 1;
+}
